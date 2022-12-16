@@ -1,37 +1,37 @@
 # Fadhli-Tes-Teknis
 
-<h1>A. Membuat Env python</h1>
+<h3>A. Membuat Env python</h3>
     <ol>
         <li>Masuk CMD</li>
         <li>python venv Env</li>
     </ol>
 
-B. Mengaktifkan Env
+<h3>B. Mengaktifkan Env</h3>
     <ol>
         <li>Masuk ke folder env/scripts</li>
         <li>ketik activate</li>
     </ol>
 
-C. Membuat superuser
+<h3>C. Membuat superuser</h3>
     <ol>
         <li>Masuk ke cmd dalam folder project</li>
         <li>ketik python manage.py createsuperuser</li>
         <li>masukkan username dengan nama admin, email, dan password</li>
     </ol>
-D.1 Memulai server dengan python
+<h3>D.1 Memulai server dengan python</h3>
     <ol>
         <li>Masuk ke folder project</li>
         <li>Masuk ke CMD</li>
         <li>ketik python manage.py migrate</li>
         <li>ketik python manage.py runserver</li>
     </ol>
-D.2 Memulai server dengan docker
+<h3>D.2 Memulai server dengan docker</h3>
     <ol>
         <li>Masuk ke folder project</li>
         <li>Masuk ke CMD</li>
         <li>ketik docker-compose up</li>
     </ol>
-E. Masukkan admin ke group Admin
+<h3>E. Masukkan admin ke group Admin</h3>
     <ol>
         <li>masuk ke website 127.0.0.1:8000/admin</li>
         <li>login menggunakan akun superuser yang telah dibuat</li>
