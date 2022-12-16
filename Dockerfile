@@ -1,13 +1,16 @@
 FROM python:3.10.8
 
-ENV PYTHONUNBUFFERED = value
+ENV PYTHONUNBUFFERED=1
 
-WORKDIR /code
+WORKDIR /app
 
-COPY requirements.txt .
+ADD . /app 
+
+COPY ./requirements.txt /app/requirements.txt
+
 
 RUN pip install -r requirements.txt
 
-COPY . .
+COPY . /app
 
 CMD python manage.py migrate && python manage.py runserver 0.0.0.0:8000
