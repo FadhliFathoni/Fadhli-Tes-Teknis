@@ -41,4 +41,9 @@
         <li>pilih admin dan masukkan admin ke grup Admin</li>
     </ol>
 
-# Website dapat dijalankan
+<h3>F. Membuat akun karyawan</h3>
+    <ol>
+        <li>Masuk ke website 127.0.0.1:8000</li>
+        <li>Login sebagai admin</li>
+        <li>Masuk ke halam create dan buat karyawan</li>
+    </ol>
