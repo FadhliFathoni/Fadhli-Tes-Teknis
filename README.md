@@ -1,37 +1,41 @@
 # Fadhli-Tes-Teknis
 
-A. Membuat Env python
+<h1>A. Membuat Env python</h1>
     <ol>
         <li>Masuk CMD</li>
         <li>python venv Env</li>
     </ol>
-    
-    
 
 B. Mengaktifkan Env
-    1. Masuk ke folder env/scripts
-    2. ketik activate
+    <ol>
+        <li>Masuk ke folder env/scripts</li>
+        <li>ketik activate</li>
+    </ol>
 
 C. Membuat superuser
-    1. Masuk ke cmd dalam folder project
-    2. ketik python manage.py createsuperuser
-    3. masukkan username dengan nama admin, email, dan password
-
+    <ol>
+        <li>Masuk ke cmd dalam folder project</li>
+        <li>ketik python manage.py createsuperuser</li>
+        <li>masukkan username dengan nama admin, email, dan password</li>
+    </ol>
 D.1 Memulai server dengan python
-    1. Masuk ke folder project.
-    2. Masuk ke CMD.
-    3. ketik python manage.py migrate
-    4. ketik python manage.py runserver
-
+    <ol>
+        <li>Masuk ke folder project</li>
+        <li>Masuk ke CMD</li>
+        <li>ketik python manage.py migrate</li>
+        <li>ketik python manage.py runserver</li>
+    </ol>
 D.2 Memulai server dengan docker
-    1. Masuk ke folder project
-    2. Masuk ke CMD
-    3. ketik docker-compose up
-
+    <ol>
+        <li>Masuk ke folder project</li>
+        <li>Masuk ke CMD</li>
+        <li>ketik docker-compose up</li>
+    </ol>
 E. Masukkan admin ke group Admin
-    1. masuk ke website 127.0.0.1:8000/admin
-    2. login menggunakan akun superuser yang telah dibuat
-    3. masuk ke halaman user
-    4. pilih admin dan masukkan admin ke grup Admin
-
-    Website dapat dijalankan
+    <ol>
+        <li>masuk ke website 127.0.0.1:8000/admin</li>
+        <li>login menggunakan akun superuser yang telah dibuat</li>
+        <li>masuk ke halaman user</li>
+        <li>pilih admin dan masukkan admin ke grup Admin</li>
+    </ol>
+# Website dapat dijalankan
