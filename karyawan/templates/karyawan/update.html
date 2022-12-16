@@ -1,0 +1,21 @@
+{% extends 'base_karyawan.html' %}
+{% load static %}
+{% block title %}
+<title>{{heading}}</title>
+{% endblock title %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/karyawan_update.css' %}">
+{% endblock css %}
+{% block heading %}
+<h1>{{heading}}</h1>
+{% endblock heading %}
+{% block content %}
+<form action="" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <table id="table">
+        {{form}}
+        {{img}}
+    </table>
+    <button class="btn btn-primary type=" submit">Submit</button>
+</form>
+{% endblock content %}

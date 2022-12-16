@@ -1,0 +1,21 @@
+{% extends 'base_karyawan.html' %} {% load static %}
+ {% block title %}
+<title>{{heading}}</title>
+{% endblock title %} 
+{% block css %} <link rel="stylesheet" href=" {% static 'css/login.css' %} "> {% endblock css %} 
+
+{% block heading %}
+<h1 class="heading">{{heading}}</h1>
+{% endblock heading %} 
+
+{% block content %}
+<div class="container">    
+    <form action="" method="post">
+        {% csrf_token %}
+        <table>
+            {{form}}
+        </table>
+        <button class="btn btn-outline-success" type="submit">Login</button>
+    </form>
+</div>
+{% endblock content %}
