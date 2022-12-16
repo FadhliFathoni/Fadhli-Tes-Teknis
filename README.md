@@ -1,7 +1,12 @@
 # Fadhli-Tes-Teknis
+
 A. Membuat Env python
-    1. Masuk CMD
-    2. python venv Env
+    <ol>
+        <li>Masuk CMD</li>
+        <li>python venv Env</li>
+    </ol>
+    
+    
 
 B. Mengaktifkan Env
     1. Masuk ke folder env/scripts
@@ -13,8 +18,8 @@ C. Membuat superuser
     3. masukkan username dengan nama admin, email, dan password
 
 D.1 Memulai server dengan python
-    1. Masuk ke folder project
-    2. Masuk ke CMD
+    1. Masuk ke folder project.
+    2. Masuk ke CMD.
     3. ketik python manage.py migrate
     4. ketik python manage.py runserver
 
@@ -22,7 +27,7 @@ D.2 Memulai server dengan docker
     1. Masuk ke folder project
     2. Masuk ke CMD
     3. ketik docker-compose up
-    
+
 E. Masukkan admin ke group Admin
     1. masuk ke website 127.0.0.1:8000/admin
     2. login menggunakan akun superuser yang telah dibuat
