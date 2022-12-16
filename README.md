@@ -27,8 +27,10 @@
     </ol>
 <h3>D.2 Memulai server dengan docker</h3>
     <ol>
+        <li>Pastikan anda telah menginstal docker desktop</li>
         <li>Masuk ke folder project</li>
         <li>Masuk ke CMD</li>
+        <li>ketik docker-compose build</li>
         <li>ketik docker-compose up</li>
     </ol>
 <h3>E. Masukkan admin ke group Admin</h3>
@@ -38,5 +40,5 @@
         <li>masuk ke halaman user</li>
         <li>pilih admin dan masukkan admin ke grup Admin</li>
     </ol>
-    
+
 # Website dapat dijalankan
